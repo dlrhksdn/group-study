@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
     <link rel="stylesheet" type="text/css" href="/css/style.css">
-    <script src="/js/home/login.js"></script>
+    <script src="/js/home/login.js" defer></script>
 </head>
 <body>
     <div class="header">
@@ -24,9 +24,9 @@
 
     <form class="login_form">
         
-        <input type="text" placeholder="ID"><br>
-        <input type="text" placeholder="PASSWORD"><br>
-        <input type="submit" value="sign in">
+        <input id="id" type="text" placeholder="ID"><br>
+        <input id="psword" type="text" placeholder="PASSWORD"><br>
+        <button>sign in</button>
     </form>
 </body>
 </html>
