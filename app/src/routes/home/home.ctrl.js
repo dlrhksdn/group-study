@@ -27,6 +27,7 @@ const process = {
             if(users.psword[idx] === (psword)){
                 return res.json({
                     success: true,
+                    msg: "로그인 되었습니다.",
                 });
             }
         }
