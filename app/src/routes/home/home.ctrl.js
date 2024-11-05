@@ -41,6 +41,11 @@ const process = {
         // response.msg = "잘못된 id 및 password입니다.";
         // return res.json(response);
     },
+    join: (req, res) => {
+        const user = new User(req.body);
+        const response = user.join();
+        return res.json(response);
+    }
 };
 
 module.exports = {
