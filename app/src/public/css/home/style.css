@@ -71,7 +71,11 @@
 
 
 
-/* content */
+/* body */
+body{
+    background: rgb(238, 238, 238);
+}
+
 .login-page{
     height: auto;
     min-height: 100%;
@@ -84,7 +88,7 @@
 #margin_login{
     min-height: 100px;
 }
-/* content */
+/* body */
 
 
 
@@ -96,7 +100,6 @@
     overflow: hidden;
     padding: 70px 0;
     box-sizing: border-box;
-    background-color: black;
 }
 
 .inner_footer{
